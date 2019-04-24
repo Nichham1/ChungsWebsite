@@ -2,30 +2,49 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+    <div class="jumbotron" >
+        <h1 class="text-center">Welcome to Chung’s Catering Services</h1>
+        <p class="lead">
+            We enjoys taking away the stress from you our customers. What is really important is that We make our customers feel really safe and secure.Our customers Will never have anything to worry about once they're in Our hands.
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <img class="img-responsive" src="~/Content/Images/Banner.gif" alt="homeupperbanner">
+        <br/>
+        <p class="text-center">
+            <button type="button" class="btn btn-default btn-lg"> @Html.ActionLink("Learn More", "About", "Home") &raquo; </button>
+        </p>
+        <br />
+        <br />
+       
+        <div class="row container-fluid servicefont text-center">
+            <div class="col-md-4 media">
+                <img class="mr-3 imgs responsive mx-auto" src="~/Content/Images/dailymenu.jpg" alt="daily menu">
+                <div class="media-body">
+                    <p class="mt-0">Take a look at what we have to offer on today's menu at our 3  locations....</p>
+                    <p class="text-center">
+                        <button type="button" class="btn btn-default btn-lg"> @Html.ActionLink("Learn More", "Index", "Home") &raquo; </button>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-4 media">
+                <img class="mr-3 imgs responsive mx-auto hborder" src="~/Content/Images/fined.png" alt="Services">
+                <div class="media-body">
+                    <p class="mt-0"> The company with the finest food and greatest service, providing....</p>
+                    <br />
+                    <p class="text-center">
+                        <button type="button" class="btn btn-default btn-lg"> @Html.ActionLink("Learn More", "Services", "Home") &raquo; </button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 media">
+                <img class="mr-3 imgs responsive mx-auto" src="~/Content/Images/gallery.png" alt="Gallery">
+                <div class="media-body">
+                    <p>We offer a wide variety of foods  and services to cater for your  every need...</p>
+                    <p class="text-center">
+                        <button type="button" class="btn btn-default btn-lg"> @Html.ActionLink("Learn More", "Gallery", "Home") &raquo; </button>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>

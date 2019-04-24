@@ -22,3 +22,27 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.imgs {
+	/*This serves to change the size of the image in the middle */
+	width: 200px;
+	height: 160px;
+}
+
+.imsz {
+	/*This serves to change the size of the image in the footer*/
+	width: 30px;
+	height: 30px;
+}
+
+body {
+	background-image: url(Images/restaurantwp1.jpg);
+}
+
+.Chungslogo {
+	background: url(Images/hlogo.gif) repeat center ;
+	display: block;
+	width: auto;
+	height: 100px;
+	text-align: center;
+}
