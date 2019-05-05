@@ -1,12 +1,20 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+	font-family:'Times New Roman', Times, serif;
+	font-size:medium;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+}
+
+.navbarcr{
+	background-color:firebrick;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -40,9 +48,86 @@ body {
 }
 
 .Chungslogo {
-	background: url(Images/hlogo.gif) repeat center ;
+	background: url(Images/hlogo.gif) repeat center  ;
 	display: block;
 	width: auto;
 	height: 100px;
 	text-align: center;
+
+}
+
+
+.chungslogo2 {
+	background: url(Images/bannerlogo.png) no-repeat;
+	display: block;
+	width: 133px;
+	height: 60px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	
+
+}
+	
+}
+.aboutimgs {
+	display: block;
+	width: 1140px;
+	height: 317px;
+}
+
+.servicefont {
+	font-size: 20px;
+	border-color: beige;
+	background-color: floralwhite;
+	border: solid;
+	border: 2px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+}
+
+.servicehead {
+	font-size: 35px;
+	border-color: beige;
+	background-color: floralwhite;
+	border: solid;
+	border: 2px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+}
+
+#service_cocktail {
+	height: 50%;
+	width: 100%;
+	align-content: center
+}
+
+#servfood3 {
+	height: 30%;
+	width: 30%;
+}
+
+.servimg {
+	/*This serves to change the size of the image in the footer*/
+	width: 33%;
+	height: 60%;
+}
+
+
+.aboutfont {
+	font-size: 20px;
+	border-color: beige;
+	background-color: floralwhite;
+	border: solid;
+	border: 2px;
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
 }

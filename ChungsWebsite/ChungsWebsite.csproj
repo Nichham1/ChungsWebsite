@@ -200,6 +200,7 @@
     <Content Include="Content\Images\aboutus_banner.png" />
     <Content Include="Content\Images\arrows.png" />
     <Content Include="Content\Images\Banner.gif" />
+    <Content Include="Content\Images\bannerlogo.png" />
     <Content Include="Content\Images\bg.jpg" />
     <Content Include="Content\Images\bread.png" />
     <Content Include="Content\Images\breakfast.png" />
