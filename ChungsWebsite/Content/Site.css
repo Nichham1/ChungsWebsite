@@ -68,7 +68,6 @@ body {
 	text-align: center;
 	position: relative;
 	
-
 }
 	
 }
@@ -130,4 +129,8 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	overflow: auto;
+}
+.mapch{
+padding:10px;
+
 }
