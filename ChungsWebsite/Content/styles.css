@@ -1,0 +1,606 @@
+/* unvisited link */
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+
+/*Anniecia*/
+
+.abouttext {
+    text-align: justify;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: red;
+}
+
+
+/* selected link */
+
+a:active {
+    color: yellow;
+}
+
+
+/* the entire page */
+
+#page {
+    width: 75.5%;
+    margin: auto;
+    overflow: auto;
+}
+
+#header {
+    background-color: #6f0102;
+    margin: auto;
+    font-family: 'Vollkorn', serif;
+}
+
+#main {
+    color: black;
+    text-align: justify;
+    padding: 3px;
+}
+
+#second {
+    color: black;
+    text-align: center;
+    padding: 3px;
+}
+
+
+/* This is to auto resize the images in the website to the size of the window */
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#nav {
+    background-color: #8e1d1d;
+    font-family: 'Vollkorn', serif;
+}
+
+#footer {
+    background-color: #440001;
+    opacity: 100px;
+}
+
+
+/* CLasses */
+
+.tcenter {
+    /*This serves to center text*/
+    text-align: center;
+}
+
+.tright {
+    /*this serves to right aling text */
+    text-align: right;
+}
+
+.whitetext {
+    /*This serves to change the color of the text to*/
+    color: white;
+}
+
+.blacktext {
+    /*This serves to change the color of the text to*/
+    color: black;
+}
+
+.marg {
+    /*This serves to change the over all spacing*/
+    margin: auto;
+}
+
+.fixclear {
+    /*This serves to clear any extra space */
+    overflow: auto;
+}
+
+.backcolor {
+    /*This serves to change the background color to*/
+    background-color: black;
+}
+
+.imsz {
+    /*This serves to change the size of the image in the footer*/
+    width: 30px;
+    height: 30px;
+}
+
+.imgs {
+    /*This serves to change the size of the image in the footer*/
+    width: 200px;
+    height: 160px;
+}
+
+
+/*Home Page*/
+
+#homet {
+    padding: 4px;
+}
+
+
+/* Editing the positions of content */
+
+#makeLeft {
+    float: left;
+}
+
+#makeRight {
+    float: right;
+}
+
+.float_center {
+    float: right;
+    position: relative;
+    left: -50%;
+    /* or right 50% */
+    text-align: left;
+}
+
+.float_center>.child {
+    position: relative;
+    left: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.hborder {
+    border: solid white 2px;
+}
+
+.homefont {
+    color: black;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.aboutfont {
+    font-size: 20px;
+    border-color: beige;
+    background-color: floralwhite;
+    border: solid;
+    border: 2px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.servicefont {
+    font-size: 20px;
+    border-color: beige;
+    background-color: floralwhite;
+    border: solid;
+    border: 2px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.servicehead {
+    font-size: 35px;
+    border-color: beige;
+    background-color: floralwhite;
+    border: solid;
+    border: 2px;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
+
+#service_cocktail {
+    height: 50%;
+    width: 100%;
+    align-content: center
+}
+
+#servfood3 {
+    height: 30%;
+    width: 30%;
+}
+
+.servimg {
+    /*This serves to change the size of the image in the footer*/
+    width: 33%;
+    height: 60%;
+}
+
+
+/*------------------gallery CSS starts------------------- */
+
+.dg-container {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.dg-wrapper {
+    width: 481px;
+    height: 316px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.dg-wrapper a {
+    width: 482px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: white, no-repeat top left;
+    border-block-end: white 2px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dg-wrapper a.dg-transition {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.dg-wrapper a img {
+    display: block;
+    padding: 41px 0px 0px 1px;
+}
+
+.dg-wrapper a div {
+    font-style: italic;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    bottom: -55px;
+    display: none;
+    position: absolute;
+}
+
+.dg-wrapper a.dg-center div {
+    display: block;
+}
+
+.dg-container nav {
+    width: 58px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -29px;
+}
+
+.dg-container nav span {
+    text-indent: -9000px;
+    float: left;
+    cursor: pointer;
+    width: 24px;
+    height: 25px;
+    opacity: 0.8;
+    background: transparent url(../images/arrows.png) no-repeat top left;
+}
+
+.dg-container nav span:hover {
+    opacity: 1;
+}
+
+.dg-container nav span.dg-next {
+    background-position: top right;
+    margin-left: 10px;
+}
+
+
+/*------------------first gallery ends-------------------------- */
+
+
+/*------------------second gallery begins-------------------------- */
+
+body {
+    position: relative;
+}
+
+.gallery {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    /* //position: relative; */
+}
+
+.img-c {
+    width: 250px;
+    height: 250px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-block-end: solid 10px;
+}
+
+.img-w {
+    position: absolute;
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform ease-in-out 300ms;
+}
+
+.img-w img {
+    display: none;
+}
+
+.img-c {
+    transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+}
+
+.img-c:hover .img-w {
+    transform: scale(1.08);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: 2;
+    /* //transform: translateX(-50%); */
+}
+
+.img-c.postactive {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.img-c.active.positioned {
+    left: 0 !important;
+    top: 0 !important;
+    transition-delay: 50ms;
+}
+
+
+/*------------------second gallery ends-------------------------- */
+
+
+/* Contact us page */
+
+#contact_us {
+    padding-left: 25%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+}
+
+.text-block {
+    position: absolute;
+    top: 25%;
+    right: -5%;
+    color: rgb(0, 0, 0);
+    padding-right: 40%;
+}
+
+#panel,
+#flip {
+    padding: 1px;
+    text-align: center;
+    background-color: #e5eecc0a;
+    border: solid 1px #c3c3c305;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+#panel2,
+#flip2 {
+    padding: 1px;
+    text-align: center;
+    background-color: #e5eecc0a;
+    border: solid 1px #c3c3c305;
+}
+
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+
+
+/*Log in animation*/
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: rgb(175, 76, 76);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

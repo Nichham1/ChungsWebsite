@@ -254,6 +254,13 @@
     <Content Include="Content\Images\sushi3.jpg" />
     <Content Include="Content\Images\twitter.png" />
     <Content Include="Content\Images\wedding.jpeg" />
+    <Content Include="Content\js\jquery-11.0.min.js" />
+    <Content Include="Content\js\jquery.gallery.js" />
+    <Content Include="Content\js\modernizr.custom.53451.js" />
+    <Content Include="Content\js\secgallery.js" />
+    <Content Include="Content\js\unitegallery.js" />
+    <Content Include="Content\js\unitegallery1.min.js" />
+    <Content Include="Content\styles.css" />
     <Content Include="Content\unite-gallery.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
