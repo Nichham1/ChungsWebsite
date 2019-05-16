@@ -19,11 +19,9 @@
 
                 </button>
 
-                <div class="chungslogo2 btn">
-                    <p>
-                        <a id="logo" class="btn"></a>
-                    </p>
-                </div>
+                @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand chungslogo2 button" })
+
+              
 
 
             </div>
@@ -35,7 +33,10 @@
                     <li>@Html.ActionLink("About us", "About", "Home")</li>
                     <li>@Html.ActionLink(" Gallery ", "Gallery", "Home")</li>
                     <li>@Html.ActionLink(" Contact us", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Catering", "Catering", "Home")</li>
                 </ul>
+
+                
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
